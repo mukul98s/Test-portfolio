@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 #navbar {
@@ -11,7 +17,10 @@ body {
 .nav-link,
 .navbar-brand {
   color: rgb(48, 18, 18);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
 }
+
 #welcome-section {
   background: rgb(241, 241, 178);
   height: calc(100vh - 60px);
@@ -24,13 +33,14 @@ body {
   transform: translate(-50%, -50%);
 }
 #welcome-section .my-name h3 {
-  font-weight: 300;
+  font-weight: lighter;
   font-size: 1.5rem;
   color: rgb(5, 73, 5);
 }
 #welcome-section .my-name h1 {
   font-size: 3rem;
   color: rgb(11, 56, 10);
+  font-weight: bolder;
 }
 
 .card img {
@@ -70,13 +80,13 @@ footer li a:hover {
 }
 
 @keyframes color {
-  0%{
+  0% {
     color: red;
   }
-  50%{
+  50% {
     color: yellow;
   }
-  100%{
+  100% {
     color: red;
   }
 }
